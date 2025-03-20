@@ -12,4 +12,4 @@ value = st.slider("Select a value", 0, 100, 50)
 st.write(f"Slider value: {value}")
 
 # Display Image with Caption
-st.image("https://picsum.photos/400", caption="Random Beautiful Image", use_column_width=True)
+st.image("https://www.pexels.com/photo/400x300/", caption="Beautiful Pexels Image", use_column_width=True)
