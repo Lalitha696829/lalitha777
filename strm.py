@@ -1,15 +1,15 @@
 import streamlit as st
 
 # Title
-st.title("My Streamlit App")
+st.title("Dynamic Streamlit App")
 
 # Button
-if st.button("Click Me!"):
-    st.write("Button Clicked!")
+if st.button("Try Me!"):
+    st.write("Button has been clicked!")
 
 # Slider
-value = st.slider("Select a value", 0, 100, 50)
-st.write(f"Slider value: {value}")
+value = st.slider("Pick a value", 10, 1000, 500)
+st.write(f"Selected value: {value}")
 
 # Display Image with Caption
-st.image("https://www.pexels.com/photo/400x300/", caption="Beautiful Pexels Image", use_column_width=True)
+st.image("https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0", caption="Stunning Nature View", use_column_width=True)
